@@ -43,7 +43,7 @@ vpn代理工具，科学上网（支持分流），脚本运行，https抓包，
 
 ### PROXY
 
-- 奇心科技
+- Melody 自行修改
 免费订阅节点，当前是免费提供，失效时间待定（强烈建议大家自己[注册机场](http://v2.bruceyunti.com/#/register?code=5PqG3ZbH)，使用自己的订阅节点）
 
 - 网易云解锁灰色
@@ -129,28 +129,28 @@ vpn代理工具，科学上网（支持分流），脚本运行，https抓包，
 
 
 包含了去广告规则，解锁vip规则，具体有什么，可以把引用的链接复制出来，使用浏览器打开，就可以看到有什么了，是不是有你想要的那个解锁vip的
-https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qxrules.conf
+https://raw.githubusercontent.com/LonelyRay/rules/main/QuantumultX/qxrules.conf
 
 - 比价 （失效）
 
 
 京东、淘宝，历史价格比较，一般京东会直接在商品界面显示，淘宝在 “保障” 里面查看，当前规则是失效状态，因为大佬没在维护了
 说明：正常维护的情况下，如果你打开看不到历史价格，那就需要卸载app并重新安装才能正常显示比价
-https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/price.conf
+https://raw.githubusercontent.com/LonelyRay/rules/main/QuantumultX/price.conf
 
 - 去开屏广告
 
 
 目前可以去部分app开屏广告，具体请点击链接查看，到底能去哪些app的开屏广告。
 说明：不是所有app的开屏广告都可以去的呀，而且app升级很容易造成去开屏广告失效，请尽量不要更新app，各位轻点喷。
-https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf
+https://raw.githubusercontent.com/LonelyRay/rules/main/QuantumultX/tailadv.conf
 
 
 - 解锁TikTok （旧版有效）
 
 
 该规则目前是有效的，仅仅是不支持最新版本而已，你可以抓包下载旧版，就可以使用了，别在说规则没用了，也不要一进群就到处求解锁TikTok的规则了，你这样问，真的没有人愿意理你，因为链接里面都有注释的，你倒是点进去看看啊
-https://raw.githubusercontent.com/zwf234/rules/master/TikTok/US.conf
+https://raw.githubusercontent.com/LonelyRay/rules/main/TikTok/US.conf
 
 
 - 获取Cookie（还未来得及更新）
@@ -158,7 +158,7 @@ https://raw.githubusercontent.com/zwf234/rules/master/TikTok/US.conf
 
 一共有两个获取Cookie，内容不同，因为规则有冲突，所以才分了两个链接，用完一定记得取消勾选，切记！否则会影响其他规则的正常使用，不要把它一直开着（因为有主机名，所以会影响对应域名的服务，常见影响为：页面打不开）
 说明：只是部分脚本获取ck的规则，不是所有，若不能获取ck，请自行查看脚本注释添加响应规则获取
-https://raw.githubusercontent.com/zwf234/rules/master/getCookie.conf
+https://raw.githubusercontent.com/LonelyRay/rules/main/getCookie.conf
 
 
 - BoxJs
@@ -199,7 +199,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 国内地址：https://qxnav.com/rules/QuantumultX/qixin.conf
 
-国外地址：https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qixin.conf
+国外地址：https://raw.githubusercontent.com/LonelyRay/rules/main/QuantumultX/qixin.conf
 
 
 	国内地址打开乱码，下载后就正常了

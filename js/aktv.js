@@ -10,7 +10,7 @@ aktv.me aktv.fun aktv.vip , 邀请码：V0B3KA
 
 [rewrite_local]
 
-^http:\/\/aktv111\.com\/api\/user.* url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/aktv.js
+^http:\/\/aktv111\.com\/api\/user.* url script-response-body https://raw.githubusercontent.com/LonelyRay/rules/main/js/aktv.js
 
 [MITM]
 aktv111.com

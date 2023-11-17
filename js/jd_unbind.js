@@ -6,7 +6,7 @@
 *点击打开相应链接就可以注销对应的会员
 
 
-0 9 * * * https://raw.githubusercontent.com/zwf234/rules/master/js/jd_unbind.js, tag=注销京东会员卡, img-url=rl=https://qxzy.top/rules/QuantumultX/img/jd.png, enabled=true
+0 9 * * * https://raw.githubusercontent.com/LonelyRay/rules/main/js/jd_unbind.js, tag=注销京东会员卡, img-url=rl=https://qxzy.top/rules/QuantumultX/img/jd.png, enabled=true
 
 
 

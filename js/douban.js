@@ -10,9 +10,9 @@
 
 [rewrite_local]
 茶杯狐、流媒体
-^https://m.douban.com/movie/subject/.+ url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/douban.js
+^https://m.douban.com/movie/subject/.+ url script-response-body https://raw.githubusercontent.com/LonelyRay/rules/main/js/douban.js
 Airtable 收藏
-^https://m.douban.com/movie/subject/.+\?seen=\d url script-request-header https://raw.githubusercontent.com/zwf234/rules/master/js/douban.js
+^https://m.douban.com/movie/subject/.+\?seen=\d url script-request-header https://raw.githubusercontent.com/LonelyRay/rules/main/js/douban.js
 
 [mitm]
 hostname = m.douban.com

@@ -12,13 +12,13 @@ Telegram频道： [@qixinscience](https://t.me/qixinscience)
 
 Telegram群组： [@qixinkeji](https://t.me/qixinkeji)
 
-微信公众号：奇心科技Pro  
+微信公众号：Melody 自行修改Pro  
 
 图标使用方法：  
 ----
 1、订阅链接中引用
 
-图标链接地址示例：https://raw.githubusercontent.com/zwf234/rules/master/img/molu.png  
+图标链接地址示例：https://raw.githubusercontent.com/LonelyRay/rules/main/img/molu.png  
 
 
 

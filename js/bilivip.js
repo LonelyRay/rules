@@ -5,7 +5,7 @@
 [rewrite_local]
 
 #哔哩哔哩
-^http[s]:\/\/(.*.bili*.com) url script-request-header https://raw.githubusercontent.com/zwf234/rules/master/js/bilivip.js
+^http[s]:\/\/(.*.bili*.com) url script-request-header https://raw.githubusercontent.com/LonelyRay/rules/main/js/bilivip.js
 
 [MITM]
 

@@ -5,9 +5,9 @@
 感谢@GB-png，提供新方法
 
 QX:
-https:\/\/.*\.(xiaoxiaoapps|xiaoxiaoimg)\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/xxysad.js
+https:\/\/.*\.(xiaoxiaoapps|xiaoxiaoimg)\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/LonelyRay/rules/main/xxysad.js
 Surge:
-http-response https:\/\/.*\.(xiaoxiaoapps|xiaoxiaoimg)\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/zwf234/rules/master/xxysad.js
+http-response https:\/\/.*\.(xiaoxiaoapps|xiaoxiaoimg)\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/LonelyRay/rules/main/xxysad.js
 
 MITM = *.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com
 */

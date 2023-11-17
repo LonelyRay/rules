@@ -5,7 +5,7 @@
 
 [rewrite_local]
 # 糖心网页版解锁会员
-^https?:\/\/txv04\.com\/h5\/user\/findQrcode$ url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/tangxin.js
+^https?:\/\/txv04\.com\/h5\/user\/findQrcode$ url script-response-body https://raw.githubusercontent.com/LonelyRay/rules/main/js/tangxin.js
 
 [mitm] 
 hostname = txv04.com

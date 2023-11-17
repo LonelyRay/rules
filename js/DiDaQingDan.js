@@ -1,7 +1,7 @@
 /*
 TickTick (Tick list) unlock pro
 QX:
-^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/DiDaQingDan.js
+^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/LonelyRay/rules/main/js/DiDaQingDan.js
 
 hostname = dida365.com, ticktick.com
 */

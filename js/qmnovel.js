@@ -4,24 +4,24 @@
 七猫小说自动签到脚本
 Surge
 [Script]
-http-request ^https:\/\/xiaoshuo\.qm989\.com script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/qmnovel.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/qmnovel.js
+http-request ^https:\/\/xiaoshuo\.qm989\.com script-path=https://raw.githubusercontent.com/LonelyRay/rules/main/js/qmnovel.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/LonelyRay/rules/main/js/qmnovel.js
 
 QuantumultX
 [rewrite_local]
 # [商店版]
-^https:\/\/xiaoshuo\.qm989\.com url script-request-header https://raw.githubusercontent.com/zwf234/rules/master/js/qmnovel.js
+^https:\/\/xiaoshuo\.qm989\.com url script-request-header https://raw.githubusercontent.com/LonelyRay/rules/main/js/qmnovel.js
 
 # [TestFlight]
-^https:\/\/xiaoshuo\.qm989\.com url script-request-header https://raw.githubusercontent.com/zwf234/rules/master/js/qmnovel.js
+^https:\/\/xiaoshuo\.qm989\.com url script-request-header https://raw.githubusercontent.com/LonelyRay/rules/main/js/qmnovel.js
 
 [task_local]
 
 # [商店版]
-1 0 * * * https://raw.githubusercontent.com/zwf234/rules/master/js/qmnovel.js
+1 0 * * * https://raw.githubusercontent.com/LonelyRay/rules/main/js/qmnovel.js
 
 # [TestFlight]
-1 0 * * * https://raw.githubusercontent.com/zwf234/rules/master/js/qmnovel.js
+1 0 * * * https://raw.githubusercontent.com/LonelyRay/rules/main/js/qmnovel.js
 
 =================================================
 

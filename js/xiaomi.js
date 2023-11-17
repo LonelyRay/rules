@@ -9,19 +9,19 @@ APP Store下载小米运动APP
 hostname = account.huami.com
 =========Surge=========
 [Script]
-小米运动 = type=cron,cronexp="15 17 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/xiaomi.js
-小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=backUp/https://raw.githubusercontent.com/zwf234/rules/master/js/xiaomi.js
+小米运动 = type=cron,cronexp="15 17 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/LonelyRay/rules/main/js/xiaomi.js
+小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=backUp/https://raw.githubusercontent.com/LonelyRay/rules/main/js/xiaomi.js
 =========QuantumultX=========
 [task_local]
 # 小米运动
-15 17 * * * https://raw.githubusercontent.com/zwf234/rules/master/js/xiaomi.js, tag=小米运动, img-url=https://qxnav.com/rules/QuantumultX/img/xiaomi.png
+15 17 * * * https://raw.githubusercontent.com/LonelyRay/rules/main/js/xiaomi.js, tag=小米运动, img-url=https://qxnav.com/rules/QuantumultX/img/xiaomi.png
 [rewrite_local]
 # 小米运动获取Token
-^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/xiaomi.js
+^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body https://raw.githubusercontent.com/LonelyRay/rules/main/js/xiaomi.js
 =========Loon=========
 [Script]
 cron "15 17 * * *" script-path=xmbs.js, tag=小米运动
-http-response ^https:\/\/account\.huami\.com\/v2\/client\/login script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/xiaomi.js, requires-body=true, timeout=3600, tag=小米运动获取Token
+http-response ^https:\/\/account\.huami\.com\/v2\/client\/login script-path=https://raw.githubusercontent.com/LonelyRay/rules/main/js/xiaomi.js, requires-body=true, timeout=3600, tag=小米运动获取Token
  */
 
 const $ = new Env('小米运动');

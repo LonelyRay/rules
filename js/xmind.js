@@ -11,7 +11,7 @@
 QuantumultX 重写配置
 
 [rewrite_local]
-https?:\/\/www\.xmind\.(cn|net)\/\_res\/devices url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/xmind.js
+https?:\/\/www\.xmind\.(cn|net)\/\_res\/devices url script-response-body https://raw.githubusercontent.com/LonelyRay/rules/main/js/xmind.js
 
 [mitm]
 hostname = www.xmind.cn, www.xmind.net

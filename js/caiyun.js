@@ -8,7 +8,7 @@
 
 ===========QuantumultX===========
 [rewrite_local]
-^https:\/\/biz\.caiyunapp\.com\/v2\/user.+ url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/caiyun.js
+^https:\/\/biz\.caiyunapp\.com\/v2\/user.+ url script-response-body https://raw.githubusercontent.com/LonelyRay/rules/main/js/caiyun.js
 
 
 [MITM]
@@ -56,7 +56,7 @@ obj ={
       "is_login": true
     },
     "device_id": "B409FB39-AAC3-46E3-80B6-7544B5BB8C27",
-    "name": "奇心科技",
+    "name": "Melody 自行修改",
     "bound_status": {
       "qq": {
         "username": "",

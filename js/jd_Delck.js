@@ -21,7 +21,7 @@ ck获取错误，可清除再次尝试
 
 ======Quantumult X=======
 [task_local]
-* * * * 1/1 ?  https://raw.githubusercontent.com/zwf234/rules/master/js/jd_Delck.js, tag=清除京东ck, img-url=https://qxzy.top/rules/QuantumultX/img/jd.png, enabled=true
+* * * * 1/1 ?  https://raw.githubusercontent.com/LonelyRay/rules/main/js/jd_Delck.js, tag=清除京东ck, img-url=https://qxzy.top/rules/QuantumultX/img/jd.png, enabled=true
 
 *************************/
 

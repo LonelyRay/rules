@@ -10,7 +10,7 @@ cron 5 14 * * * jd_cfd.js
 ============Quantumultx===============
 [task_local]
 #京喜财富岛-娱乐中心-抽奖
-5 14 * * * https://raw.githubusercontent.com/zwf234/rules/master/js/jd_cfdcj.js, tag=京喜财富岛抽奖, img-url=https://qxzy.top/rules/QuantumultX/img/jd.png, enabled=true
+5 14 * * * https://raw.githubusercontent.com/LonelyRay/rules/main/js/jd_cfdcj.js, tag=京喜财富岛抽奖, img-url=https://qxzy.top/rules/QuantumultX/img/jd.png, enabled=true
 
  */
 !(function (t, r) {

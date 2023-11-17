@@ -1,5 +1,5 @@
 /*
-0 8,12 * * * https://raw.githubusercontent.com/zwf234/rules/master/js/jd_zcxyc.js
+0 8,12 * * * https://raw.githubusercontent.com/LonelyRay/rules/main/js/jd_zcxyc.js
 */
 const $ = new Env('众筹许愿池');
 const notify = $.isNode() ? require("./sendNotify") : "";

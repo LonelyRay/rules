@@ -1,7 +1,7 @@
 /*******************************
 
 [rewrite_local]
-^https?:\/\/api3\.cls\.cn\/v1\/user_detail\/information|https?:\/\/i\.cls\.cn\/featured\/v2\/home\/recommend\/article|https?:\/\/i\.cls\.cn.*?|https?:\/\/api3\.cls\.cn\/api\/privilege\/my\/column*? url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/cls.js
+^https?:\/\/api3\.cls\.cn\/v1\/user_detail\/information|https?:\/\/i\.cls\.cn\/featured\/v2\/home\/recommend\/article|https?:\/\/i\.cls\.cn.*?|https?:\/\/api3\.cls\.cn\/api\/privilege\/my\/column*? url script-response-body https://raw.githubusercontent.com/LonelyRay/rules/main/js/cls.js
 
 [mitm]
 hostname = api3.cls.cn,i.cls.cn
